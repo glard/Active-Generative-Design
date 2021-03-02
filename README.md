@@ -6,7 +6,8 @@ Department of Computer Science and Engineering <br />
 University of South Carolina <br />
 
 How to cite:<br />
-
+Rui Xin, Edirisuriya M. D. Siriwardane, Yuqi Song, Yong Zhao, Steph-Yves Louis, Alireza Nasiri, Jianjun Hu
+Active learning based generative design for the discovery of wide bandgap materials.2021 https://arxiv.org/abs/2103.00608
 
 # Table of Contents
 * [Introduction](#introduction)
@@ -64,7 +65,7 @@ pip install pymatgen
 Once all the aforementionned requirements are satisfied, one can easily generate target property material candidates by running ALSearch.py in the terminal along with the specification of the appropriate flags. At the bare minimum, using --budget to specify the active learning budget and --kappa to control balance between exploration and exploitation.
 - Example. start active-learning process given budget and kappa.
 ```bash
-python ALSearch.py --budget 50 --kappa 100 --init 300 --candidate_out_path path/you/prefer
+python ALSearch.py --budget 50 --kappa 100 --candidate_out_path path/you/prefer
 ```
 The generated materials and their predicted property will be automatically generated under specified folder
 
