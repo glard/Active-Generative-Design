@@ -26,7 +26,7 @@ The package provides 3 major functions:
 - Generate material cadidates' cif files based on element substitution (based on ELMD). 
 
 The following paper describes the details of the our framework:
-[Active learning based generative design for discovery of wide band gap materials](https://arxiv.org/pdf/.pdf)
+[Active learning based generative design for discovery of wide band gap materials](https://arxiv.org/pdf/2103.00608.pdf)
 
 
 
