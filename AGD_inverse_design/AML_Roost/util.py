@@ -39,8 +39,8 @@ def build_entry():
     return v3
 
 
-# revised for some formula has a single element surpass 8
-def formula2onehot_matrix(formula,l=8):
+# revised for some formula has a single element surpass 20
+def formula2onehot_matrix(formula,l=20):
     onehot = build_entry()
     obj = Composition(formula)
     d = obj.as_dict()
@@ -72,7 +72,7 @@ def pred_matrix2formula(onehot_matrix):
     return obj.reduced_formula
 
 
-def get_onehot_matrix(l=8):
+def get_onehot_matrix(l=20):
     onehot = build_entry()
     df = pd.read_csv('data/mpid_formula_sp.csv')
     formulas = df.pretty_formula.values
@@ -93,7 +93,7 @@ def get_onehot_matrix(l=8):
     return data
 
 # modified
-def split_data(trn_ratio=0.8,l=8):
+def split_data(trn_ratio=0.8,l=20):
     d = get_onehot_matrix(l)
     formulas = list(d.keys())
     random.shuffle(formulas)

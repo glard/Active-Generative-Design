@@ -20,7 +20,7 @@ if __name__ == '__main__':
                         help='dataset name')
     parser.add_argument('--kappa', default=100,
                         help='hyperparameter to control exploration and exploitation of bayesian optimization')
-    parser.add_argument('--candidate_out_path', default='./Exp3_candidates.txt',
+    parser.add_argument('--candidate_out_path', default='./Exp3_candidates',
                         help='candidate out path')
     parser.add_argument('--init', default=300,
                         help='Active learning initial samples')
@@ -28,12 +28,12 @@ if __name__ == '__main__':
     args = parser.parse_args(sys.argv[1:])
 
     # AGD --- parameters
-    budget = args.budget
+    budget = int(args.budget)
     filepath = args.filepath
     dataset = args.dataset
-    kappa = args.kappa
+    kappa = int(args.kappa)
     candidate_out = args.candidate_out_path
-    init_samples = args.init
+    init_samples = int(args.init)
 
     p = preprocessing.preprocessing(filepath, dataset, init_samples)
 

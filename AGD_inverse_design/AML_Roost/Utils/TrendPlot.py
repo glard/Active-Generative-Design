@@ -13,4 +13,4 @@ class TrendPlot:
         plot = sns.lineplot(x=x, y=y, sort=False, label="Best Value found")
         plot.set(ylabel='band gap')
         plot.set(xlabel='Probe times')
-        plot.figure.savefig("_" + str(len(bst_list)) + "_training_generator_1231kapa100.pdf")
+        plot.figure.savefig("_" + str(len(bst_list)) + "AGD_process.pdf")
