@@ -61,6 +61,10 @@ pip install pymatgen
 
 <a name="usage"></a>
 ## Usage
+
+#### train auto encoder and decoder for representation learning
+use ae.py, encoder.py and decoder.py under AML_Roost folder to train auto encoder and decoder to perform representation learning.
+
 #### Generate target property material candidates
 Once all the aforementionned requirements are satisfied, one can easily generate target property material candidates by running ALSearch.py in the terminal along with the specification of the appropriate flags. At the bare minimum, using --budget to specify the active learning budget, --init to set number of initial samples and --kappa to control balance between exploration and exploitation.
 - Example. start active-learning process given budget and kappa.
@@ -90,8 +94,10 @@ python roost-predict.py --test-path /root_path/roost/roost/examples/prepared_tra
 
 #### Screening Recovery rate test
 
+Input: .csv file path of screened out candidate materials by Oracle model and model trained with active-learning augumented data.
+Output: Recovery rate measured by the overlap percentage of candidates with respect to the candidates screened out by the Oracle model.
 To test the recovery rate:
 ```bash
-python screen_recover_rate.py
+python screen_recover_rate.py --Oracle_candidates_filepath xxx --Exp2_BS_candidates_filepath xxx --Exp2_AL_candidates_filepath xxx --Exp3_BS_candidates_filepath xxx --Exp3_AL_candidates_filepath xxx
 ```
 
