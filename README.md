@@ -65,7 +65,7 @@ pip install pymatgen
 Once all the aforementionned requirements are satisfied, one can easily generate target property material candidates by running ALSearch.py in the terminal along with the specification of the appropriate flags. At the bare minimum, using --budget to specify the active learning budget, --init to set number of initial samples and --kappa to control balance between exploration and exploitation.
 - Example. start active-learning process given budget and kappa.
 ```bash
-python ALSearch.py --budget 50 --kappa 100 --candidate_out_path path/you/prefer
+python ALSearch.py --budget 50 --kappa 100 --init 300 --candidate_out_path path/you/prefer
 ```
 The generated materials and their predicted property will be automatically generated under specified folder
 
