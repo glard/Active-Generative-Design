@@ -7,7 +7,7 @@ University of South Carolina <br />
 
 How to cite:<br />
 Rui Xin, Edirisuriya M. D. Siriwardane, Yuqi Song, Yong Zhao, Steph-Yves Louis, Alireza Nasiri, Jianjun Hu
-Active learning based generative design for the discovery of wide bandgap materials.2021 (https://arxiv.org/abs/2103.00608)
+Active learning based generative design for the discovery of wide bandgap materials.2021
 
 # Table of Contents
 * [Introduction](#introduction)
