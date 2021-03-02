@@ -27,7 +27,27 @@ class preprocessing:
                 for i in range(128):
                     added_columns_name.append('V' + str(i))
                 data = []
+                # create composition column
+                df_comp = StrToComposition(target_col_id='composition').featurize_dataframe(self.df, 'pretty_formula')
+                # create column with maximum atom number
+                max_atom_num = []
+                for st in df_comp[['composition']].astype(str).values:
+                    # if len(st[0].as_dict()) > 8:
+                    #     continue
+                    atom_list = []
+                    # print(st[0])
+                    s = st[0]
+                    for item in s.split():
+                        num = re.sub(r"\D", "", item)
+                        atom_list.append(int(num))
+                    # print(atom_list)
+                    max_atom_num.append(max(atom_list))
 
+                # update dataframe with max_atom_num
+                self.df['max_atom_num'] = max_atom_num
+                # remove rows whose max atom number above 20
+                self.df = self.df[self.df['max_atom_num'] < 21]
+                self.df = self.df.drop(['max_atom_num'], axis=1)
                 # convert formula to latent vector
                 for formula in self.df['pretty_formula']:
                     print(formula)
@@ -97,21 +117,13 @@ class preprocessing:
         print('top 2% label (top 1 band_gap) is ' + str(top2))
         print('top 1% label (top 1 band_gap) is ' + str(top1))
 
-
-        # select  ys from bottom 50 percent
-        #df_bottom = self.sorted_df.loc[(self.sorted_df['band_gap'] < med)]
-
-        # caution!!!!!!!!!!!!!!!!!!! here is a bug caused by df.sample method!!!!!!!!!!!!!!!!!!!!!!!
-        #df_bottom = df_bottom.sample(frac=1.0, replace=False, random_state=1)
-
         # remove duplicate
         df = self.sorted_df.drop_duplicates(subset=cols,
                                      keep='first')
-        df = df[df['band_gap'] <= 3.0 ]
-
-        df = self.sorted_df.sample(n=300, replace=False, random_state=42)
-        #df = self.sorted_df
-        df.to_csv('t-sne-train.csv')
+        # df = df[df['Eg'] <= 3.0 ]
+        #
+        # df = self.sorted_df.sample(n=300, replace=False, random_state=42)
+        # df.to_csv('t-sne-train.csv')
         y = df['Eg'].tolist()
         X = df[cols].values.tolist()
         print('selecting all samples from bandgap dataset.....')

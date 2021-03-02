@@ -12,7 +12,7 @@ import model_inference
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='AGD')
-    parser.add_argument('--budget', default=5,
+    parser.add_argument('--budget', default=50,
                         help='Active learning budget')
     parser.add_argument('--filepath', default='./Utils/bandgap-magpie.csv',
                         help='Prepared dataset used for active learning')
