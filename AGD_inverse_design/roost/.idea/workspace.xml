@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80e013c1-0891-44a0-b1e0-2be55600751c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/roost/examples/prepared_training_data/gen_high_eg_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roost/examples/prepared_training_data/gen_test_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roost/examples/prepared_training_data/gen_trainable_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roost/examples/screen_acc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roost/examples/roost-example.py" beforeDir="false" afterPath="$PROJECT_DIR$/roost/examples/roost-example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roost/roost/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/roost/roost/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roost/roost/roost/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/roost/roost/roost/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roost/roost/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/roost/roost/utils.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="roost" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/roost" />
+  </component>
+  <component name="ProjectId" id="1fy8QSMHDTVNGNuUb4Rr35MfFnT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/roost/examples/prepared_training_data" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/roost/examples/prepared_training_data" />
+      <recent name="$PROJECT_DIR$/roost/models/roost_s-0_t-1" />
+      <recent name="$PROJECT_DIR$/roost/examples/piezoelectric" />
+      <recent name="$PROJECT_DIR$/roost/examples" />
+      <recent name="$PROJECT_DIR$/roost/models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/roost/examples/prepared_training_data/old" />
+      <recent name="$PROJECT_DIR$/roost/examples/piezoelectric" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.roost-example test">
+    <configuration name="AML_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="roost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/roost/examples/prepared_training_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roost/examples/prepared_training_data/AML_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gen_high_eg_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="roost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/roost/examples/prepared_training_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roost/examples/prepared_training_data/gen_high_eg_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="roost-example 1k" type="PythonConfigurationType" factoryName="Python">
+      <module name="roost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/roost/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roost/examples/roost-example.py" />
+      <option name="PARAMETERS" value="--data-path $PROJECT_DIR$/roost/examples/prepared_training_data/bd_1741_train_exp3.csv --train --evaluate --val-size 0.2 --test-size 0.2 --epochs 200 --run-id 2210" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="roost-example test" type="PythonConfigurationType" factoryName="Python">
+      <module name="roost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/roost/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roost/examples/roost-example.py" />
+      <option name="PARAMETERS" value="--test-path $PROJECT_DIR$/roost/examples/prepared_training_data/bd_test_only.csv --regression --evaluate --run-id 9" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="roost-example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="roost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/roost/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roost/examples/roost-example.py" />
+      <option name="PARAMETERS" value="--data-path $PROJECT_DIR$/roost/examples/prepared_training_data/bd_AML_whole_train.csv --train --evaluate --test-path $PROJECT_DIR$/roost/examples/prepared_training_data/bd_AML_whole_test.csv --val-size 0.2  --epochs 200 --run-id 9" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="roost-test" type="PythonConfigurationType" factoryName="Python">
+      <module name="roost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/roost/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roost/examples/roost-example.py" />
+      <option name="PARAMETERS" value="--test-path $PROJECT_DIR$/roost/examples/prepared_training_data/bandgap4new_model.csv --regression --evaluate --run-id 511" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="roost_piezo" type="PythonConfigurationType" factoryName="Python">
+      <module name="roost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/roost/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roost/examples/roost-example.py" />
+      <option name="PARAMETERS" value="--data-path $PROJECT_DIR$/roost/examples/piezoelectric/piezoelectric.csv --train --evaluate --epochs 200 --run-id 99" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="roost_screening" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="roost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/roost/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roost/examples/roost_screening.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="screen_acc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="roost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/roost/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roost/examples/screen_acc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.roost_piezo" />
+      <item itemvalue="Python.roost-test" />
+      <item itemvalue="Python.roost-example test" />
+      <item itemvalue="Python.roost-example 1k" />
+      <item itemvalue="Python.roost-example" />
+      <item itemvalue="Python.AML_data" />
+      <item itemvalue="Python.gen_high_eg_test" />
+      <item itemvalue="Python.roost_screening" />
+      <item itemvalue="Python.screen_acc" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.roost-example" />
+        <item itemvalue="Python.roost_screening" />
+        <item itemvalue="Python.screen_acc" />
+        <item itemvalue="Python.AML_data" />
+        <item itemvalue="Python.gen_high_eg_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80e013c1-0891-44a0-b1e0-2be55600751c" name="Default Changelist" comment="" />
+      <created>1597178955136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597178955136</updated>
+      <workItem from="1597178961944" duration="50286000" />
+      <workItem from="1598302643269" duration="54849000" />
+      <workItem from="1600116678189" duration="5000" />
+      <workItem from="1600295220584" duration="592000" />
+      <workItem from="1600615950760" duration="1380000" />
+      <workItem from="1601262203967" duration="28991000" />
+      <workItem from="1602352968525" duration="9919000" />
+      <workItem from="1603329697570" duration="575000" />
+      <workItem from="1603679058980" duration="1182000" />
+      <workItem from="1605492867709" duration="12288000" />
+      <workItem from="1605545927178" duration="9966000" />
+      <workItem from="1606492339680" duration="857000" />
+      <workItem from="1606675940643" duration="10095000" />
+      <workItem from="1606803763717" duration="5610000" />
+      <workItem from="1606897539052" duration="9470000" />
+      <workItem from="1607195107613" duration="2595000" />
+      <workItem from="1607879613043" duration="19437000" />
+      <workItem from="1609345595907" duration="4408000" />
+      <workItem from="1610227050203" duration="1179000" />
+      <workItem from="1610309972465" duration="3712000" />
+      <workItem from="1610514023401" duration="11885000" />
+      <workItem from="1610992985402" duration="32265000" />
+      <workItem from="1611542351644" duration="10016000" />
+      <workItem from="1612399938691" duration="4310000" />
+      <workItem from="1612733575303" duration="2982000" />
+      <workItem from="1614032539092" duration="1180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/roost/roost/core.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/roost/examples/model_test.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/roost/examples/model_test.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/roost/examples/model_test.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/roost/roost/core.py</url>
+          <line>248</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/roost/roost/utils.py</url>
+          <line>420</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/roost/examples/model_test.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/roost/examples/test2.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/roost/examples/prepared_training_data/gen_test_gen.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="test_set.indices" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/roost$model_test.coverage" NAME="model_test Coverage Results" MODIFIED="1598323665260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/examples" />
+    <SUITE FILE_PATH="coverage/roost$gen_trainable_data.coverage" NAME="gen_trainable_data Coverage Results" MODIFIED="1611029535009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/examples/prepared_training_data" />
+    <SUITE FILE_PATH="coverage/roost$AML_data.coverage" NAME="AML_data Coverage Results" MODIFIED="1611770148140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/examples/prepared_training_data" />
+    <SUITE FILE_PATH="coverage/roost$roost_example_test.coverage" NAME="roost-example test Coverage Results" MODIFIED="1612563917596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/" />
+    <SUITE FILE_PATH="coverage/roost$gen_high_eg_test.coverage" NAME="gen_high_eg_test Coverage Results" MODIFIED="1611337734922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/examples/prepared_training_data" />
+    <SUITE FILE_PATH="coverage/roost$roost_example.coverage" NAME="roost-example Coverage Results" MODIFIED="1612841588289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/" />
+    <SUITE FILE_PATH="coverage/roost$model_inference.coverage" NAME="model_inference Coverage Results" MODIFIED="1598317302118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/examples" />
+    <SUITE FILE_PATH="coverage/roost$piezo_data_gen.coverage" NAME="piezo_data_gen Coverage Results" MODIFIED="1602268684766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/examples" />
+    <SUITE FILE_PATH="coverage/roost$roost_screening.coverage" NAME="roost_screening Coverage Results" MODIFIED="1612840638197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/examples" />
+    <SUITE FILE_PATH="coverage/roost$roost_test.coverage" NAME="roost-test Coverage Results" MODIFIED="1606901772281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/roost$roost_piezo.coverage" NAME="roost_piezo Coverage Results" MODIFIED="1606898174116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/" />
+    <SUITE FILE_PATH="coverage/roost$roost_example_1k.coverage" NAME="roost-example 1k Coverage Results" MODIFIED="1609193925362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/" />
+    <SUITE FILE_PATH="coverage/roost$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1598331523819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/examples" />
+    <SUITE FILE_PATH="coverage/roost$gen_test_gen.coverage" NAME="gen_test_gen Coverage Results" MODIFIED="1609360368637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/examples/prepared_training_data" />
+    <SUITE FILE_PATH="coverage/roost$screen_acc.coverage" NAME="screen_acc Coverage Results" MODIFIED="1612563750633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roost/examples" />
+  </component>
+</project>
