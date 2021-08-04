@@ -22,9 +22,7 @@ URL = {
 },
 eprint = { 
         https://doi.org/10.1021/acs.jpcc.1c02438
-    
-}
-
+        }
 }
 
 
