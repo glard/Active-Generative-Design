@@ -6,8 +6,27 @@ Department of Computer Science and Engineering <br />
 University of South Carolina <br />
 
 How to cite:<br />
-Rui Xin, Edirisuriya M. D. Siriwardane, Yuqi Song, Yong Zhao, Steph-Yves Louis, Alireza Nasiri, Jianjun Hu
-Active learning based generative design for the discovery of wide bandgap materials.2021. https://arxiv.org/abs/2103.00608 
+@article{doi:10.1021/acs.jpcc.1c02438,
+author = {Xin, Rui and Siriwardane, Edirisuriya M. D. and Song, Yuqi and Zhao, Yong and Louis, Steph-Yves and Nasiri, Alireza and Hu, Jianjun},
+title = {Active-Learning-Based Generative Design for the Discovery of Wide-Band-Gap Materials},
+journal = {The Journal of Physical Chemistry C},
+volume = {125},
+number = {29},
+pages = {16118-16128},
+year = {2021},
+doi = {10.1021/acs.jpcc.1c02438},
+
+URL = { 
+        https://doi.org/10.1021/acs.jpcc.1c02438
+    
+},
+eprint = { 
+        https://doi.org/10.1021/acs.jpcc.1c02438
+    
+}
+
+}
+
 
 # Table of Contents
 * [Introduction](#introduction)
