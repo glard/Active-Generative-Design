@@ -6,25 +6,12 @@ Department of Computer Science and Engineering <br />
 University of South Carolina <br />
 
 How to cite:<br />
-@article{doi:10.1021/acs.jpcc.1c02438,
-author = {Xin, Rui and Siriwardane, Edirisuriya M. D. and Song, Yuqi and Zhao, Yong and Louis, Steph-Yves and Nasiri, Alireza and Hu, Jianjun},
-title = {Active-Learning-Based Generative Design for the Discovery of Wide-Band-Gap Materials},
-journal = {The Journal of Physical Chemistry C},
-volume = {125},
-number = {29},
-pages = {16118-16128},
-year = {2021},
-doi = {10.1021/acs.jpcc.1c02438},
-
-URL = { 
-        https://doi.org/10.1021/acs.jpcc.1c02438
-    
-},
-eprint = { 
-        https://doi.org/10.1021/acs.jpcc.1c02438
-        }
+@article{xin2021active,
+  title={Active learning based generative design for the discovery of wide bandgap materials},
+  author={Xin, Rui and Siriwardane, Edirisuriya and Song, Yuqi and Zhao, Yong and Louis, Steph-Yves and Nasiri, Alireza and Hu, Jianjun},
+  journal={arXiv preprint arXiv:2103.00608},
+  year={2021}
 }
-
 
 # Table of Contents
 * [Introduction](#introduction)
